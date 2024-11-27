@@ -56,6 +56,7 @@ def process_file(model: cv2.dnn, filename: str) -> None:
 
 
 if __name__ == '__main__':
+    # Комментарий для провреки Github Actions (для коммита)
     args = sys.argv[1:]
     model = init_model()
     match (process_arguments(args)):
